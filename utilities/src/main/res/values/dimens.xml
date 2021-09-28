@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">8dip</dimen>
+    <dimen name="padding_medium">16dip</dimen>
+    <dimen name="padding_large">24dip</dimen>
+
+    <dimen name="margin_small">8dip</dimen>
+    <dimen name="margin_medium">16dip</dimen>
+    <dimen name="margin_large">24dip</dimen>
+
+    <dimen name="loading_size_small">50dip</dimen>
+    <dimen name="loading_size_medium">100dip</dimen>
+
+    <dimen name="dialog_min_width">250dip</dimen>
+</resources>
