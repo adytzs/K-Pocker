@@ -1,0 +1,2 @@
+rootProject.name = "K-Poker"
+include ':app'
