@@ -13,5 +13,9 @@ class InformationAlert(context: Context, var title: String, var message: String)
     override fun initialize() {
         titleTextView.text = title
         messageTextView.text = message
+
+        dismissButton.setOnClickListener {
+            dismiss()
+        }
     }
 }

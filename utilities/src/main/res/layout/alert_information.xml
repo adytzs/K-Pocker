@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="@dimen/padding_medium"
     android:minWidth="@dimen/dialog_min_width"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <TextView

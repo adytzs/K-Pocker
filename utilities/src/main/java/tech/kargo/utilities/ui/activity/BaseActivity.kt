@@ -6,9 +6,8 @@ import tech.kargo.utilities.R
 import tech.kargo.utilities.ui.alert.InformationAlert
 import tech.kargo.utilities.ui.alert.LoadingAlert
 
-abstract class BaseActivity : AppCompatActivity() {
+abstract class BaseActivity(var layoutId: Int) : AppCompatActivity() {
 
-    abstract fun getLayoutId() : Int
     abstract fun initialize()
 
     var alertDialog: LoadingAlert? = null
@@ -38,7 +37,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(getLayoutId())
+        setContentView(layoutId)
         initialize()
     }
 
